@@ -1,0 +1,125 @@
+#######################################
+# SpresenseIMU Library Keywords
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SpresenseIMU	KEYWORD1
+Vector	KEYWORD1
+Quaternion	KEYWORD1
+Matrix	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+isReady	KEYWORD2
+setMode	KEYWORD2
+getMode	KEYWORD2
+setAccelRange	KEYWORD2
+setGyroRange	KEYWORD2
+setSampleRate	KEYWORD2
+getSampleRate	KEYWORD2
+read	KEYWORD2
+readRaw	KEYWORD2
+getVector	KEYWORD2
+getTemperature	KEYWORD2
+getCalibration	KEYWORD2
+isFullyCalibrated	KEYWORD2
+getOffsets	KEYWORD2
+setOffsets	KEYWORD2
+startAutoCalibration	KEYWORD2
+startGyroBiasCalibration	KEYWORD2
+startAccelCalibration	KEYWORD2
+isCalibrating	KEYWORD2
+getCalibrationProgress	KEYWORD2
+finishCalibration	KEYWORD2
+getQuaternion	KEYWORD2
+getEulerAngles	KEYWORD2
+getRotationMatrix	KEYWORD2
+getDeviceInfo	KEYWORD2
+selfTest	KEYWORD2
+getLastError	KEYWORD2
+getErrorString	KEYWORD2
+getStats	KEYWORD2
+resetStats	KEYWORD2
+enableMovingAverage	KEYWORD2
+setMovingAverageWindow	KEYWORD2
+
+# Vector methods
+x	KEYWORD2
+y	KEYWORD2
+z	KEYWORD2
+magnitude	KEYWORD2
+normalize	KEYWORD2
+dot	KEYWORD2
+cross	KEYWORD2
+scale	KEYWORD2
+invert	KEYWORD2
+toDegrees	KEYWORD2
+toRadians	KEYWORD2
+
+# Quaternion methods
+w	KEYWORD2
+conjugate	KEYWORD2
+inverse	KEYWORD2
+fromAxisAngle	KEYWORD2
+toAxisAngle	KEYWORD2
+fromEuler	KEYWORD2
+toEuler	KEYWORD2
+rotateVector	KEYWORD2
+slerp	KEYWORD2
+
+# Matrix methods
+cell	KEYWORD2
+identity	KEYWORD2
+transpose	KEYWORD2
+determinant	KEYWORD2
+trace	KEYWORD2
+rowToVector	KEYWORD2
+colToVector	KEYWORD2
+vectorToRow	KEYWORD2
+vectorToCol	KEYWORD2
+multiplyVector	KEYWORD2
+minorMatrix	KEYWORD2
+rotationX	KEYWORD2
+rotationY	KEYWORD2
+rotationZ	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MODE_ACCELEROMETER_ONLY	LITERAL1
+MODE_GYROSCOPE_ONLY	LITERAL1
+MODE_IMU	LITERAL1
+
+VECTOR_ACCELEROMETER	LITERAL1
+VECTOR_GYROSCOPE	LITERAL1
+VECTOR_GYROSCOPE_RAD	LITERAL1
+VECTOR_LINEAR_ACCEL	LITERAL1
+VECTOR_GRAVITY	LITERAL1
+
+ERROR_NONE	LITERAL1
+ERROR_INIT_FAILED	LITERAL1
+ERROR_DEVICE_OPEN_FAILED	LITERAL1
+ERROR_INVALID_RANGE	LITERAL1
+ERROR_INVALID_SAMPLE_RATE	LITERAL1
+ERROR_READ_FAILED	LITERAL1
+ERROR_NOT_INITIALIZED	LITERAL1
+
+#######################################
+# Structures (KEYWORD1)
+#######################################
+
+IMUData	KEYWORD1
+CalibrationStatus	KEYWORD1
+CalibrationOffsets	KEYWORD1
+DeviceInfo	KEYWORD1
+PerformanceStats	KEYWORD1
+OperationMode	KEYWORD1
+VectorType	KEYWORD1
+ErrorCode	KEYWORD1

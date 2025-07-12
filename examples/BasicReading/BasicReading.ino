@@ -12,10 +12,6 @@
  * 
  * Circuit:
  * - Connect Multi-IMU Add-on board to Spresense main board
- * 
- * Created: 2024
- * 
- * This example code is in the public domain.
  */
 
 #include <SpresenseIMU.h>

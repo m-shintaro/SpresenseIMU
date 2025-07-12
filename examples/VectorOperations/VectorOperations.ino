@@ -6,16 +6,6 @@
  * - Vector mathematics (dot product, cross product, normalization)
  * - Converting between different units
  * - Calculating derived values like linear acceleration
- * 
- * Hardware Required:
- * - Sony Spresense main board with CXD5602PWB IMU
- * 
- * Circuit:
- * - No external connections required (built-in IMU)
- * 
- * Created: 2024
- * 
- * This example code is in the public domain.
  */
 
 #include <SpresenseIMU.h>

@@ -558,7 +558,7 @@ bool SpresenseIMU::finishCalibration() {
       success = _calculateGyroBias();
       break;
       
-    case CALIB_ACCEL_6POINT:
+    case CALIB_ACCEL_6POINT: {
       // Mark this orientation as done
       _accel_orientation_done[_calibration_orientation] = true;
       
@@ -576,7 +576,8 @@ bool SpresenseIMU::finishCalibration() {
       } else {
         success = true; // Partial success
       }
-      break;
+    }
+    break;
       
     default:
       success = true;
